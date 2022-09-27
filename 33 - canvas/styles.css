@@ -1,0 +1,12 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    
+}
+
+canvas{
+    margin: 40px;
+    border: 1px solid black;
+}

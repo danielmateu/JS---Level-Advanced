@@ -1,0 +1,78 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal-overlay{
+    text-align: center;
+    background: rgba(104, 104, 104, 0.7);
+    width: max-content;
+    padding:25px;
+    height: 150px;
+    top:40%;
+    border-radius:3px;
+    box-sizing: border-box;
+    position: absolute;
+    opacity: 0;
+    animation: aparecer .8s forwards;
+    -webkit-animation: aparecer .8s forwards;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    -webkit-box-shadow: 1px 6px 11px 1px rgba(0,0,0,0.56); 
+box-shadow: 1px 6px 11px 1px rgba(0,0,0,0.56);
+}
+
+button{
+    width: 10em;
+    border-radius:3px;
+    border: none;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    background: rgb(153, 197, 226);
+    color: rgb(82, 82, 82);
+    font-weight: 600;
+    transition:ease .3s all;
+    -webkit-transition:ease .3s all;
+    -moz-transition:ease .3s all;
+    -ms-transition:ease .3s all;
+    -o-transition:ease .3s all;
+}
+
+button:hover{
+    background:rgb(114, 145, 167);
+    color: aliceblue;
+}
+
+.idioma-esp{
+    opacity: 0;
+}
+
+.idioma-eng{
+    opacity: 0;
+}
+
+
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes desaparecer {
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}

@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.texturas{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 5px;
+    padding: 15px;
+    height: 50px;
+    width: 70%;
+    border: 4px solid rgb(128, 128, 128);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    user-select: none;
+}
+
+.texturas div{
+    padding: 35px;
+    border-radius:3px;
+    cursor:pointer;
+    transition:ease .3s all;
+    -webkit-transition:ease .3s all;
+    -moz-transition:ease .3s all;
+    -ms-transition:ease .3s all;
+    -o-transition:ease .3s all;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    user-select:all;
+}
+
+.texturas div:active{
+    opacity: .6;
+}
+
+.texturas div:hover{
+    font-size: 18px;
+}
+
+.textura-1{
+    background: url(./img/textura1.png);
+}
+
+.textura-2{
+    background: url(./img/textura2.png);
+}
+
+.textura-3{
+    background: url(./img/textura3.png)
+}
+
+.textura-4{
+    background: url(./img/textura4.png)
+}
+
+.textura-5{
+    background: url(./img/textura5.png);
+}
+
+.zona{
+    background: #ddd;
+    margin:25px;
+    height:50vh;
+    width:75vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+@keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

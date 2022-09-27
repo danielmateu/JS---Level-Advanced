@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resultado {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 6px;
+}
+
+.zona-arrastre{
+    padding: 60px 20px;
+    border: 4px dashed #888;
+    max-width: 500px;
+    color: #888;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
